@@ -1,0 +1,39 @@
+TOKEN TYPE
+-------------------------------------------------------
+int Keyword 
+sum Identifier
+= Operator
+a Identifier
++ Operator
+b Identifier
+; Separator
+float Keyword
+average Identifier
+= Operator
+sum Identifier
+/ Operator
+2.0 Constant
+; Separator
+// Calculate average Comment
+if Keyword 
+( Separator 
+average Identifier
+> Operator
+50 Constant
+) Separator
+printf Identifier
+( Separator
+"Pass" String Literal
+) Separator
+; Separator 
+
+
+------------------------------------------------------- Token Count -------------------------------------------------------
+Keyword : 3
+Identifier : 7
+Operator : 4 
+Constant : 2
+String Literal : 1 
+Separator : 7
+Special Symbol : 0 
+Comment : 1
